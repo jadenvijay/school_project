@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="numguess.css"/>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Make a guess</h1>
+      <h4>Between 1-100</h4>
+    </div>
+    <div class="guess-area">
+      <input type="number" name="guess" id="guess" class="guess-input">
+      <button 
+        onclick="checkGuess()" 
+        class="send-btn"
+      >
+        Send
+      </button>
+      <button 
+        onclick="window.location.href='/game-site/index.html'" 
+        class="back-btn"
+      >
+        Back
+      </button>
+    </div>
+    <div class="hint-area">
+      <p class="num-hint"></p>
+    </div>
+  </body>
+  <script src="numguess.js"></script>
+</html>

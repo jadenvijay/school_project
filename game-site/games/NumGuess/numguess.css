@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(250, 235, 215);
+  height: 100vh;
+  margin: 0;
+  color: rgb(228, 59, 59);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess-input{
+  text-align: center;
+  line-height: normal;
+  margin: 10px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 8px 8px 1px black;
+}
+
+.guess-input:focus {
+  outline: none;                   
+  border: 2px solid rgb(228, 59, 59);  
+  box-shadow: 8px 8px 1px rgb(233, 103, 103);
+}
+
+.send-btn{
+  font-size: 15px;
+  height: 40px;
+  width: 70px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(228, 59, 59);
+  cursor: pointer;
+  
+}
+
+.back-btn{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 70px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(228, 59, 59);
+  cursor: pointer;
+}
+.hint-area{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}

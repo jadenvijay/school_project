@@ -1,0 +1,74 @@
+body{
+  background-color: rgb(250, 235, 215);
+  color: rgb(228, 59, 59);
+}
+
+.title-bar {
+  display: flex;
+  align-items: center;          /* vertically center items */
+  justify-content: center;      /* centers the title horizontally */
+  padding: 10px 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(228, 59, 59);
+  margin: 0;
+}
+
+.move-icon{
+  height: 50px;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 3px solid rgb(228, 59, 59);;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  box-shadow: 0px 8px 1px rgb(165, 78, 78);
+  cursor: pointer;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reset-button{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 70px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(228, 59, 59);
+  cursor: pointer;
+  margin-top: 20px
+}
+.back-btn{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 70px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(228, 59, 59);
+  cursor: pointer;
+  margin-top: 20px;
+}
+.result{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
