@@ -77,7 +77,7 @@ function pickComputerMove() {
   return computerMove;
 }
 
-function updateScoreElement(result) {
+function updateScoreElement() {
   document.querySelector('.js-score').innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`
 }
 

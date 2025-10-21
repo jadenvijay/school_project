@@ -1,8 +1,8 @@
 body{
-  background-color: rgb(250, 235, 215);
+  background-color: rgb(255, 255, 255);
   height: 100vh;
   margin: 0;
-  color: rgb(228, 59, 59);
+  color: rgb(18, 131, 3);
 }
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -28,14 +28,14 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 10px;
   height: 40px;
   border-radius: 20px;
-  border: none;
-  box-shadow: 8px 8px 1px black;
+  border: 1px dashed rgb(18, 131, 3);
+  box-shadow: 8px 8px 1px rgb(3, 121, 19);
 }
 
 .guess-input:focus {
   outline: none;                   
-  border: 2px solid rgb(228, 59, 59);  
-  box-shadow: 8px 8px 1px rgb(233, 103, 103);
+  border: 2px solid rgb(18, 131, 3);  
+  box-shadow: 8px 8px 1px rgb(18, 131, 3);
 }
 
 .send-btn{
@@ -45,7 +45,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin-left: 10px;
   border: none;
   border-radius: 20px;
-  background-color: rgb(228, 59, 59);
+  background-color: rgb(18, 131, 3);
   cursor: pointer;
   
 }
@@ -60,7 +60,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin-left: 10px;
   border: none;
   border-radius: 20px;
-  background-color: rgb(228, 59, 59);
+  background-color: rgb(18, 131, 3);
   cursor: pointer;
 }
 .hint-area{
