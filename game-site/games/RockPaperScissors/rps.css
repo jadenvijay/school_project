@@ -18,7 +18,7 @@ body{
 }
 
 .move-icon{
-  height: 50px;
+  height: 60px;
 }
 
 .move-button{
@@ -49,7 +49,8 @@ body{
   border-radius: 20px;
   background-color: rgb(18, 131, 3);
   cursor: pointer;
-  margin-top: 20px
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgb(52, 150, 65);
 }
 .back-btn{
   display: flex;
@@ -64,6 +65,7 @@ body{
   background-color: rgb(18, 131, 3);
   cursor: pointer;
   margin-top: 20px;
+  box-shadow: 5px 5px 5px rgb(52, 150, 65);
 }
 .result{
   position: absolute;

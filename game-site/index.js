@@ -7,8 +7,8 @@ gameButtons.forEach(button => {
 });
 
 // Handle game click
-function handleGame(gameId) {
-  switch (gameId) {
+function handleGame(Id) {
+  switch (Id) {
     case "rps":
       window.location.href = "games/RockPaperScissors/rps.html";
       break;
